@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="d-flex flex-column justify-content-center align-items-center">
+    <h1>Arrays sort</h1>
+    <div>
+        <h2>Choice sort type:</h2>
+        <select id="opt" class="form-select" aria-label="Default select example">
+            <option >Choice method </option>
+            <option value="1">Bubble Sort</option>
+            <option value="2">Sort by choice</option>
+            <option value="3">Insertion Sort</option>
+            <option value="4">Quicksort</option>
+            <option value="5">Merge Sort</option>
+        </select>
+        <div  style="max-width: 400px; width: 100%" class="d-flex flex-column justify-content-center align-items-center">
+            <h2>Array for sorting</h2>
+            <h4 id="arr-default" class="text-wrap">123, 123, 12, 21, 123, 123, 123, 123, 123, 12, 312, 3,,423, 4,123, 12,3,12,31,</h4>
+            <h2 id="title-method">Sorted array by</h2>
+            <h4 id="arr-sorted" class="text-wrap">Waiting for sorting ...</h4>
+            <h4 id="time-sort">Time to sort: </h4>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
